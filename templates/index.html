@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Custom Video Player</title>
+    <style src = ..\static\styles.css ></style>
+    
+</head>
+<body>
+    <div id="player-container"
+    style = "width: 75%; height = 75%">
+        <video id="video-player" 
+        controls controlsList="nodownload" preload="auto"
+        style = "width: 75%; height = 75%">
+            <source src="/video" type="video/mp4" >
+            Your browser does not support the video tag.
+        </video>
+        
+        <div id="status">Status: Ready</div>
+    </div>
+
+    <script src  =  ..\static\script.js ></script>
+</body>
+</html>
